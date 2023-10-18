@@ -1,47 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
 
 body {
     background-color: #141516;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Regular', sans-serif;
     overflow: hidden;
 }
 
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #ed145b;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+}
 
-.container, .container-fluid {
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ed145b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.container,
+.container-fluid {
     height: 100vh;
 }
 
-.container header, .container-fluid header {
+.container header,
+.container-fluid header {
     text-align: center;
     padding: 40px 0;
 }
 
-.container header img, .container-fluid header img {
+.container header img,
+.container-fluid header img {
     width: 500px;
     height: auto;
     margin-top: 10px;
 }
 
-.container aside, .container-fluid aside {
+.container aside,
+.container-fluid aside {
     padding: 40px 0;
 }
 
@@ -56,17 +78,20 @@ table tr th {
     color: #ed145b;
 }
 
-table tr th:first-child, table tr td:first-child {
+table tr th:first-child,
+table tr td:first-child {
     text-align: left;
     padding-left: 50px;
 }
 
-table tr th, table tr td {
+table tr th,
+table tr td {
     padding: 7px 0;
     font-size: 1.3em;
 }
 
-table tr th:last-child, table tr td:last-child {
+table tr th:last-child,
+table tr td:last-child {
     padding-right: 20px;
 }
 
@@ -98,6 +123,7 @@ button:hover {
 .ranking h2 {
     margin-top: 0;
     font-size: 2em;
+    font-family: "Montserrat-ExtraBold";
 }
 
 .ranking div {
@@ -116,7 +142,7 @@ button:hover {
 .timer__part {
     color: white;
     font-size: 10em;
-    font-weight: 100;
+    font-family: "Montserrat-Thin";
 }
 
 /* .timer__div{
@@ -128,7 +154,7 @@ button:hover {
 } */
 
 input {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Regular', sans-serif;
     background: transparent;
     border: 1px solid #ed145b;
     padding: 15px 10px;
@@ -138,8 +164,9 @@ input {
     box-sizing: border-box;
 }
 
-input:focus, input:checked {
-    font-family: 'Montserrat', sans-serif;
+input:focus,
+input:checked {
+    font-family: 'Montserrat-Regular', sans-serif;
     background: transparent;
     border: 1px solid #ed145b;
     padding: 15px 10px;
@@ -160,7 +187,7 @@ input:focus, input:checked {
 .ods p {
     font-size: 1.2em;
     line-height: 2rem;
-    font-weight: 200;
+    font-family: "Montserrat-ExtraLight";
     color: white;
     padding: 40px 30px;
 }
@@ -175,4 +202,10 @@ input:focus, input:checked {
 
 #music {
     opacity: 0;
+}
+
+svg {
+    width: 1.2em;
+    height: 1.2em;
+    fill: white;
 }
