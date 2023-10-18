@@ -32,11 +32,11 @@ body {
 
 .container header, .container-fluid header {
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
 }
 
 .container header img, .container-fluid header img {
-    width: 100px;
+    width: 500px;
     height: auto;
     margin-top: 10px;
 }
@@ -154,15 +154,19 @@ input:focus, input:checked {
 }
 
 .ods .onu-logo {
-    width: 200px;
+    width: 220px;
 }
 
 .ods p {
-    font-size: 16px;
+    font-size: 1.2em;
     line-height: 2rem;
     font-weight: 200;
     color: white;
     padding: 40px 30px;
+}
+
+.destaque-texto {
+    color: #ed145b;
 }
 
 .ods .img-ods img {
