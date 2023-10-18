@@ -85,6 +85,7 @@ export default class Timer {
 
             if (this.remainingSeconds === 0) {
                 this.stop();
+                this.remainingSeconds = 61;
             }
         }, 1000);
     }
