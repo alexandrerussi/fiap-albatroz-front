@@ -124,13 +124,13 @@ export default class Timer {
             <div class="text-center">
                 <form action="">
                     <div>
-                        <input type="text" name="nome" id="nome" placeholder="Nome do jogador" autocomplete="off">
+                        <input type="text" name="nome" id="nome" placeholder="Nome do jogador" autocomplete="off" required>
                     </div>
                     <div>
-                        <input type="text" name="wpp" id="wpp" placeholder="WhatsApp" autocomplete="off">
+                        <input type="text" name="wpp" id="wpp" placeholder="WhatsApp" autocomplete="off" required>
                     </div>
                     <div>
-                        <input type="number" name="qtd" id="qtd" placeholder="EcoPoints" autocomplete="off">
+                        <input type="number" name="qtd" id="qtd" placeholder="EcoPoints" autocomplete="off" required>
                     </div>
                     <div>
                         <button type="submit" id="btn-save">SALVAR</button>
